@@ -1,0 +1,47 @@
+---
+title: "Discriptive Stats Project 2.0"
+author: "André Pegoraro Neto"
+date: "23/10/2021"
+output:
+   html_document:
+    highlight: textmate
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+---
+
+# Intro
+
+``` {r carregamento pacotes, warning = FALSE, message = FALSE}
+
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(magrittr)
+library(scales)
+library(readxl)
+library(kableExtra)
+library(stats)
+library(car)
+library(rstatix)
+library(emmeans)
+library(DescTools)
+
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
